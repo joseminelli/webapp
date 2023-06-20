@@ -213,6 +213,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5%;
   }
   #linha-horizontal2 {
     margin-top: 30px;
@@ -240,9 +241,9 @@ html {
   #yt {
     display: flex;
     margin-top: 5%;
-    margin-left: 3%;
-    width: 400px;
-    height: 400px;
+    margin-left: 5%;
+    width: 325px;
+    height: 350px;
     justify-content: center;
     align-items: center;
     border-radius: 50px;
@@ -268,10 +269,10 @@ html {
   #tinkercad {
     margin-top: 2%;
     margin-left: 0%;
-    max-width: 100px;
+    width: 350px;
   }
   #scratch {
-    max-width: 180px;
+    width: 350px;
     margin-top: 12%;
     margin-left: 0%;
     border-radius: 10px;
