@@ -58,6 +58,7 @@ html {
   margin-left: 2.5%;
   display: inline-block;
   vertical-align: 2000%;
+  max-width: 1300px;
   font-size: 20px;
 }
 #areap a {
@@ -109,13 +110,13 @@ html {
   display: flex;
 }
 
-#titulo h2{
+#titulo h2 {
   color: #3d3d3d;
   font-size: 30px;
 }
 
-
 #intro h1 {
+  justify-self: center;
   margin-top: 50px;
   font-weight: 600;
   font-size: 40px;
@@ -168,12 +169,112 @@ html {
   text-align: center;
   font-size: 24px;
 }
+@media (max-width: 1800px) {
+  #areap {
+    margin-top: 3%;
+    display: inline-block;
+    align-items: center;
+    justify-content: left;
+    max-width: 500px;
+    padding-right: 10%;
+    padding-bottom: 3%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(91, 60, 104);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+  }
+  #scratch {
+    max-width: 180px;
+    margin-top: -110%;
+    margin-left: 10%;
+    border-radius: 10px;
+  }
+
+  #tinkercad {
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 10px;
+  }
+
+  #box a {
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    display: inline-block;
+    vertical-align: 2000%;
+    max-width: 900px;
+    font-size: 20px;
+  }
+}
 
 @media (max-width: 455px) {
+  #box a {
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #linha-horizontal2 {
+    margin-top: 30px;
+    width: 300px;
+    border: 1px solid #3d3d3d;
+  }
+  #tinkercad p {
+    margin-top: 5%;
+    color: rgb(240, 248, 255, 0.8);
+    width: 300px;
+  }
+  #scratch p {
+    margin-top: 5%;
+    color: rgb(240, 248, 255, 0.8);
+    width: 300px;
+  }
+  #c p {
+    margin-top: 5%;
+    color: rgb(240, 248, 255, 0.8);
+    width: 300px;
+  }
+  #linha-horizontal {
+    width: 380px;
+  }
+  #yt {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 3%;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+  }
+
+  #txtintro a {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "Exo 2", sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+  }
+  #introTxt {
+    margin-left: 5%;
+  }
+  #areap a {
+    margin-left: 5%;
+  }
   #tinkercad {
-    margin-top: 0%;
+    margin-top: 2%;
     margin-left: 0%;
-    max-width: 200px;
+    max-width: 100px;
+  }
+  #scratch {
+    max-width: 180px;
+    margin-top: 12%;
+    margin-left: 0%;
+    border-radius: 10px;
   }
 
   #box {
